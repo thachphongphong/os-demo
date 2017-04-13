@@ -12,7 +12,7 @@
 
 ### Create new build
 
-```oc new-build --name=spring-boot-demo codecentric/springboot-maven3-centos~https://github.com/thachphongphong/spring-boot-sample-simple.git```
+```oc new-build --name=spring-boot-demo codecentric/springboot-maven3-centos~https://github.com/thachphongphong/osspringbootdemo.git```
 
 ### Create new app
 
