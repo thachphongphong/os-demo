@@ -20,4 +20,4 @@
 
 ### Create new routes
 
-```oc create route edge --hostname spring-boot-demo.preview.openshiftapps.com --service spring-boot-demo```
+```oc create route edge --hostname spring-boot-demo.44fs.preview.openshiftapps.com --service spring-boot-demo```
