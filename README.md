@@ -20,7 +20,7 @@
 
 ### Create new routes
 
-```oc create route edge --hostname spring-boot-demo-ldt.44fs.preview.openshiftapps.com --service spring-boot-demo```
+```oc create route edge --hostname spring-boot-demo-ldt.44fs.preview.openshiftapps.com --insecure-policy=Redirect --service spring-boot-demo```
 
 ## CREATE A APP WITH WAR FILE (wildfly:latest or tomcat-s2i)
 
@@ -60,7 +60,12 @@ oc get is
 oc new-app hello-openshift --name=hello-openshift
 
 6.create route
-> oc create route edge --hostname hello-openshift-ldt.44fs.preview.openshiftapps.com --service hello-openshift
+> oc create route edge --hostname hello-openshift-ldt.44fs.preview.openshiftapps.com  --service hello-openshift
 
 7.delete
 oc delete is NAME
+
+
+## DELETE PROJECT
+
+oc delete project <project_name>
