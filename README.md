@@ -59,18 +59,18 @@ docker tag NAME registry.preview.openshift.com/<project name>/<image name>
 > docker push registry.preview.openshift.com/ldt/hello-openshift
 
 5. check image is exist
-oc get is
+> oc get is
 
 6. create new app with image
-oc new-app hello-openshift --name=hello-openshift
+> oc new-app hello-openshift --name=hello-openshift
 
 7. create route
 > oc create route edge --hostname hello-openshift-ldt.44fs.preview.openshiftapps.com  --service hello-openshift
 
 9.delete
-oc delete is NAME
+> oc delete is NAME
 
 
 ## DELETE PROJECT
 
-oc delete project <project_name>
+> oc delete project <project_name>
