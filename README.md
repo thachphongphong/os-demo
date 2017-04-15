@@ -38,9 +38,9 @@
 
 ## CREATE A APP FROM DOCKER IMAGE
 
-docker pull openshift/hello-openshift
+> docker pull openshift/hello-openshift
 
-###Registry: registry.preview.openshift.com
+### Registry: registry.preview.openshift.com
 
 1. Get token and login
 > https://api.preview.openshift.com/oauth/token/request
